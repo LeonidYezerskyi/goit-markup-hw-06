@@ -781,6 +781,7 @@ border: none;
     border-radius: 4px;
     border: transparent;
     cursor: pointer;
+    transition: background-color 250ms var(--cubic);
 }
 
 .form-button:hover,
@@ -827,6 +828,7 @@ border: none;
     transform: translateY(-50%);
     color: rgba(255, 255, 255, 0.6);
     margin-left: -355px;
+    transition: border-color 250ms var(--cubic);
 }
 
 .subscribe-input:focus + .subscribe-label {
