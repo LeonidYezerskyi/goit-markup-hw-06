@@ -804,9 +804,9 @@ fill: var(--acent-color);
     margin-left: 93px;
 }
 
-.subscribe-group {
+/* .subscribe-group {
     position: relative;
-}
+} */
 
 .subscribe-items {
     display: flex;
