@@ -425,12 +425,12 @@
                     </li>
                 </ul>
             </div>
+
             <form class="subscribe-form">
                 <h3 class="subscribe-title">Підпишіться на розсилку</h3>
                 <div class="subscribe-items">
                     <span class="subscribe-group">
-                        <input class="subscribe-input" type="mail" name="e-mail" id="subscribe-mail">
-                        <label class="subscribe-label" for="subscribe-mail">E-mail</label>
+                        <input class="subscribe-input" type="mail" name="e-mail" id="subscribe-mail" placeholder="E-mail">
                     </span>
                     <button class="subscribe-button" type="submit">
                         <span class="subscribe-button-tittle">Підписатися</span>
@@ -479,19 +479,20 @@
                     <label class="modal-label" for="user-comment">Коментар</label>
                     <textarea class="modal-textarea" name="comment" id="user-comment" placeholder="Введіть текст"></textarea>
                 </div>
-                <div class="form-checked">
-                    <label class="label-check" for="user-accept">
+
+                <div class="form-agreement">
+                    <label class="check-label" for="user-accept">
+                        <input class="modal-checked visually-hidden" type="checkbox" name="accept" id="user-accept">
                         <span class="form-checkbox">
-                            <input class="modal-checked" type="checkbox" name="accept" id="user-accept">
                             <svg class="icon-checked" width="16" height="15">
-                                <use class="icon-vector" href="./images/icons.svg#icon-icon check"></use>
+                                <use class="icon-vector" href="./images/icons.svg#icon-checkbox"></use>
                             </svg>
                         </span>
-                        </span>
                         <span class="checkbox-text">Погоджуюся з розсилкою та приймаю</span>
-                        <a href="#" class="checkbox-link">Умови договору</a>
                     </label>
+                    <a href="#" class="checkbox-link">Умови договору</a>
                 </div>
+
                 <button class="form-button" type="submit">Відправити</button>
         </form>
         </div>
